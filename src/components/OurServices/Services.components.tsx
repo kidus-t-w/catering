@@ -4,7 +4,6 @@ import {
   ServicesTitle,
   ServicesSubtitle,
   ServicesText,
-  SocialIcons
 } from './Services.styles';
 
 const Services = () => {
