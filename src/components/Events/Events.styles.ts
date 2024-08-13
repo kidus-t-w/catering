@@ -50,8 +50,10 @@ export const EventItem = styled.div`
 `;
 
 export const EventImage = styled.img`
-  width: 100%;
-  max-width: 150px;
+
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   margin-bottom: 15px;
   border-radius: 50%;
 
