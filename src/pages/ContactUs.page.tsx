@@ -1,6 +1,10 @@
+import ContactUsSection from "../components/ContactUs/ContactUs.component"
+
 function ContactUs() {
   return (
-    <div>ContactUs.page</div>
+    <div>
+      <ContactUsSection />
+    </div>
   )
 }
 

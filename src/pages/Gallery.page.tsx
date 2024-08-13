@@ -1,6 +1,10 @@
+
+import GallerySection from "../components/Gallery/Gallery.component"
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <div>
+      <GallerySection />
+    </div>
   )
 }
 

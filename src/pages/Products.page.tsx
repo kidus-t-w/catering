@@ -1,6 +1,10 @@
+import ItemsSection from "../components/Items/Items.component"
+
 function Products() {
   return (
-    <div>Products</div>
+    <div>
+      <ItemsSection />
+    </div>
   )
 }
 
