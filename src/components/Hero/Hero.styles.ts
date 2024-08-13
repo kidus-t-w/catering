@@ -59,6 +59,7 @@ export const HeroButtons = styled.div`
 
   @media (max-width: 480px) {
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
 `;
