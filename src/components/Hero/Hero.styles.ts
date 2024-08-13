@@ -1,44 +1,16 @@
-import styled from 'styled-components';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 export const HeroContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
   height: 92vh;
-  background-image: url('/assets/hero/Hero_image.png');
+  background-image: url("/assets/hero/Hero_image.png");
   background-size: cover;
   background-position: center;
   position: relative;
   color: #fff;
-`;
-
-export const SocialIcons = styled.div`
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-
-  a {
-    color: #fff;
-    background-color: #d32f2f;
-    padding: 10px;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-  }
-
-  @media (max-width: 768px) {
-    left: 10px;
-    top: 10px;
-  }
-
-  @media (max-width: 480px) {
-    a {
-      padding: 8px;
-    }
-  }
 `;
 
 export const HeroContent = styled.div`
@@ -83,6 +55,7 @@ export const HeroButtons = styled.div`
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 20px;
 
   @media (max-width: 480px) {
     flex-direction: column;
@@ -90,7 +63,9 @@ export const HeroButtons = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
+  text-decoration: none;
+  width: 200px;
   padding: 10px 20px;
   background-color: #d32f2f;
   color: #fff;
