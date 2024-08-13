@@ -21,7 +21,6 @@ export const Container = styled.div`
   }
 `;
 
-
 export const MainHeading = styled.h1<{
   $color?: string;
 }>`
@@ -29,7 +28,11 @@ export const MainHeading = styled.h1<{
   font-size: 1.8rem;
   line-height: 2rem;
 `;
-export const Heading = styled.h2``;
+export const Heading = styled.h2`
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 4rem;
+`;
 export const SubHeading = styled.h3``;
 export const TextWrapper = styled.p``;
 export const Row = styled.div``;
