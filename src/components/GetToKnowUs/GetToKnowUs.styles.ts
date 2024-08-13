@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 export const GetToKnowUsSection = styled.div`
-  
   padding: 0 50px;
   background-color: #a33e3e;
 
@@ -9,7 +10,7 @@ export const GetToKnowUsSection = styled.div`
   }
 `;
 export const AboutContainer = styled.section`
-width: 100%;
+  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
@@ -58,7 +59,7 @@ export const SocialIcons = styled.div`
 
 export const AboutContent = styled.div`
   flex: 1;
-  max-width: 600px;
+  max-width: 550px;
 
   @media (max-width: 768px) {
     max-width: 100%;
@@ -91,7 +92,8 @@ export const AboutText = styled.p`
   }
 `;
 
-export const AboutButton = styled.button`
+export const AboutButton = styled(Link)`
+  text-decoration: none;
   padding: 10px 20px;
   background-color: #d32f2f;
   color: #fff;
@@ -136,5 +138,6 @@ export const AboutImage = styled.img`
 
   @media (max-width: 768px) {
     max-width: 90%;
+    max-height: 300px;
   }
 `;

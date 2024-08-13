@@ -16,15 +16,12 @@ const GetToKnowUs = () => {
         <AboutContent>
           <AboutTitle>Get to Know Us.</AboutTitle>
           <AboutText>
-            Being a valued member of the Golden Group Hospitality, Golden
-            Catering Services takes pride in its affiliation. Established by
-            Chef Henok Zerihun, a prominent culinary figure in the country, who
-            holds the position of President at the Ethiopian Chefs Association
-            and is widely respected within the food industry. Our mission is to
+            Being a valued member of the Lulu Catering Group Hospitality, Lulu
+            Catering Services takes pride in its affiliation. Our mission is to
             deliver top-notch catering services accompanied by exceptional
             hospitality.
           </AboutText>
-          <AboutButton>About us</AboutButton>
+          <AboutButton to='/about_us'>About us</AboutButton>
         </AboutContent>
         <AboutImages>
           <AboutImage
