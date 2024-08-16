@@ -31,7 +31,7 @@ export const MainHeading = styled.h1<{
 export const Heading = styled.h2`
   margin-top: 6rem;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 `;
 export const SubHeading = styled.h3``;
 export const TextWrapper = styled.p``;

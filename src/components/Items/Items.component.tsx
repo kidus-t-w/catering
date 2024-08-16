@@ -27,7 +27,7 @@ const items = [
 const ItemsSection = () => {
   return (
     <>
-      <Heading>Our Products</Heading>
+      <Heading>OUR PRODUCTS</Heading>
       <ItemsContainer>
         <ItemsGrid>
           {items.map((item, index) => (
