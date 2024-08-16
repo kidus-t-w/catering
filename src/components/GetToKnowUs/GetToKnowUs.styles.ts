@@ -123,7 +123,6 @@ export const AboutImages = styled.div`
   gap: 20px;
 
   @media (max-width: 768px) {
-    flex-direction: column;
     gap: 10px;
     margin-top: 20px;
   }
@@ -137,7 +136,7 @@ export const AboutImage = styled.img`
   border-radius: 10px;
 
   @media (max-width: 768px) {
-    max-width: 90%;
-    max-height: 300px;
+    max-width: 80%;
+    max-height: 200px;
   }
 `;
