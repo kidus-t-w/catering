@@ -47,6 +47,7 @@ text-align: center;
 width: 100%;
 
 @media screen and (max-width: 960px) {
+display: ${({ $show }) => ($show ? "flex" : "none")};
 flex-direction: column;
 width: 100%;
 height: 100vh;
