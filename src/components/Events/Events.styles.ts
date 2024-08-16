@@ -58,11 +58,13 @@ export const EventImage = styled.img`
   border-radius: 50%;
 
   @media (max-width: 768px) {
-    max-width: 120px;
+    max-width: 100px;
+    max-height: 100px;
   }
 
   @media (max-width: 480px) {
     max-width: 100px;
+    max-height: 100px;
   }
 `;
 
