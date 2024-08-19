@@ -11,6 +11,22 @@ export const HeroContainer = styled.section`
   background-position: center;
   position: relative;
   color: #fff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
 `;
 
 export const HeroContent = styled.div`
