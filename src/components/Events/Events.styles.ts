@@ -1,8 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const EventsContainer = styled.section`
   padding: 50px;
   background-color: #a33e3e;
+  background-image: url("/assets/pattern.svg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
   color: #fff;
   position: relative;
 
@@ -50,7 +55,6 @@ export const EventItem = styled.div`
 `;
 
 export const EventImage = styled.img`
-
   width: 150px;
   height: 150px;
   object-fit: cover;

@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 export const GetToKnowUsSection = styled.div`
   padding: 0 50px;
   background-color: #a33e3e;
-
+  background-image: url("/assets/pattern.svg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  
   @media screen and(max-width 960px) {
     padding: 0 30px;
   }
@@ -17,7 +22,6 @@ export const AboutContainer = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background-color: #a33e3e;
   color: #fff;
   position: relative;
 

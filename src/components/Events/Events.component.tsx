@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion';
 import {
   EventsContainer,
   EventsTitle,
@@ -47,11 +48,22 @@ const Events = () => {
       <EventsTitle>What is your next event?</EventsTitle>
       <EventGrid>
         {events.map((event, index) => (
+          <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 2 }}
+          variants={{
+            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, x: 200 },
+          }}
+        >
           <EventItem key={index}>
             <EventImage src={event.image} alt={event.title} />
             <EventTitle>{event.title}</EventTitle>
             <EventDescription>{event.description}</EventDescription>
           </EventItem>
+          </motion.div>
         ))}
       </EventGrid>
     </EventsContainer>
