@@ -8,7 +8,7 @@ const navBarData = [
     link: "products",
   },
   {
-    title: "AboutUs",
+    title: "About Us",
     link: "about_us",
   },
   {
@@ -16,7 +16,7 @@ const navBarData = [
     link: "gallery",
   },
   {
-    title: "ContactUs",
+    title: "Contact Us",
     link: "contact_us",
   },
 ];

@@ -12,7 +12,7 @@ const CallToAction = () => {
         respective markets the AA members are supremely well suited to create a
         superb locally or regionally themed event.
       </CTAText>
-      <Button to='/contact_us'>Catering Request</Button>
+      <Button to='/contact_us'>Request Catering</Button>
     </CTAContainer>
   );
 };

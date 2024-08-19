@@ -17,7 +17,7 @@ const Hero = () => {
         <p>We provide catering services for different events such as weddings, graduations, corporate events, and any gatherings</p>
         <HeroButtons>
           <Button to='/contact_us'>Catering Request</Button>
-          <Button to='/about_us'>AboutUs</Button>
+          <Button to='/about_us'>About Us</Button>
         </HeroButtons>
       </HeroContent>
     </HeroContainer>
