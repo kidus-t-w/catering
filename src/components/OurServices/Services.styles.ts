@@ -8,6 +8,7 @@ export const ServicesContainer = styled.section`
   background-image: url("/assets/services/services-bg.png");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /* Makes the background image fixed */
   position: relative;
   color: #fff;
   overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
@@ -34,6 +35,7 @@ export const ServicesContainer = styled.section`
     height: auto;
   }
 `;
+
 
 export const SocialIcons = styled.div`
   position: absolute;
