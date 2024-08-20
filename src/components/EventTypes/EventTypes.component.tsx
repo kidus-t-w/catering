@@ -6,23 +6,23 @@ import {
   EventImage,
   EventOverlay,
   EventTitle,
-  LearnMoreButton
-} from './EventTypes.styles';
+  LearnMoreButton,
+} from "./EventTypes.styles";
 
 const EventTypes = () => {
   const events = [
     {
-      title: 'Weddings',
-      image: '/assets/eventTypes/events.png'
+      title: "Weddings",
+      image: "/assets/eventTypes/events.png",
     },
     {
-      title: 'Parties & Social Events',
-      image: '/assets/eventTypes/events.png'
+      title: "Parties & Social Events",
+      image: "/assets/eventTypes/events.png",
     },
     {
-      title: 'Corporate Events',
-      image: '/assets/eventTypes/events.png'
-    }
+      title: "Corporate Events",
+      image: "/assets/eventTypes/events.png",
+    },
   ];
 
   return (

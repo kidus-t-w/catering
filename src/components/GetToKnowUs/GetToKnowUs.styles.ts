@@ -14,7 +14,7 @@ export const GetToKnowUsSection = styled.div`
     padding: 0 30px;
   }
 `;
-export const AboutContainer = styled.section`
+export const GetToKnowUsContainer = styled.section`
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
@@ -61,7 +61,7 @@ export const SocialIcons = styled.div`
   }
 `;
 
-export const AboutContent = styled.div`
+export const GetToKnowUsContent = styled.div`
   flex: 1;
   max-width: 550px;
 
@@ -70,7 +70,7 @@ export const AboutContent = styled.div`
   }
 `;
 
-export const AboutTitle = styled.h2`
+export const GetToKnowUsTitle = styled.h2`
   font-size: 36px;
   margin-bottom: 20px;
 
@@ -83,7 +83,7 @@ export const AboutTitle = styled.h2`
   }
 `;
 
-export const AboutText = styled.p`
+export const GetToKnowUsText = styled.p`
   font-size: 18px;
   margin-bottom: 20px;
 
@@ -96,7 +96,7 @@ export const AboutText = styled.p`
   }
 `;
 
-export const AboutButton = styled(Link)`
+export const GetToKnowUsButton = styled(Link)`
   text-decoration: none;
   padding: 10px 20px;
   background-color: #d32f2f;
@@ -120,7 +120,7 @@ export const AboutButton = styled(Link)`
   }
 `;
 
-export const AboutImages = styled.div`
+export const GetToKnowUsImages = styled.div`
   flex: 1;
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ export const AboutImages = styled.div`
   }
 `;
 
-export const AboutImage = styled.img`
+export const GetToKnowUsImage = styled.img`
   object-fit: cover;
   width: 100%;
   max-width: 250px;

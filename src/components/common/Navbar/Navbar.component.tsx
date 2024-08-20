@@ -33,13 +33,15 @@ function Navbar() {
           <MobileIcon onClick={handleClick}>
             {$show ? <FaTimes /> : <CgMenuRight />}
           </MobileIcon>
-          {<NavMenu $show={$show}>
-            {data.map((item, index) => (
-              <NavItem key={index} onClick={handleClick}>
-                <NavLinks to={item.link}>{item.title}</NavLinks>
-              </NavItem>
-            ))}
-          </NavMenu>}
+          {
+            <NavMenu $show={$show}>
+              {data.map((item, index) => (
+                <NavItem key={index} onClick={handleClick}>
+                  <NavLinks to={item.link}>{item.title}</NavLinks>
+                </NavItem>
+              ))}
+            </NavMenu>
+          }
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>

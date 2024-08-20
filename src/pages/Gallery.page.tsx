@@ -1,11 +1,10 @@
-
-import GallerySection from "../components/Gallery/Gallery.component"
+import GallerySection from "../components/Gallery/Gallery.component";
 function Gallery() {
   return (
     <div>
       <GallerySection />
     </div>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;

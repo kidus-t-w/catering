@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
@@ -56,7 +57,7 @@ export const FooterTitle = styled.h3`
   }
 `;
 
-export const FooterLink = styled.a`
+export const FooterLink = styled(Link)`
   display: block;
   color: #333;
   margin-bottom: 10px;

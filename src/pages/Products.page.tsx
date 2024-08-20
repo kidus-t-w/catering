@@ -1,11 +1,11 @@
-import ItemsSection from "../components/Items/Items.component"
+import ItemsSection from "../components/Items/Items.component";
 
 function Products() {
   return (
     <div>
       <ItemsSection />
     </div>
-  )
+  );
 }
 
-export default Products
+export default Products;

@@ -5,16 +5,15 @@ import Hero from "../components/Hero/Hero.component";
 import Services from "../components/OurServices/Services.components";
 import Pictures from "../components/Pictures/Pictures.component";
 
-
 function Home() {
   return (
     <>
       <Hero />
       <GetToKnowUs />
       <Services />
-      <Events/>
-      <Pictures/>
-      <CallToAction/>
+      <Events />
+      <Pictures />
+      <CallToAction />
     </>
   );
 }

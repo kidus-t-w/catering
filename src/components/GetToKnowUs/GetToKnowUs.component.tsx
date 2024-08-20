@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
 import {
-  AboutContainer,
-  AboutContent,
-  AboutTitle,
-  AboutText,
-  AboutButton,
-  AboutImages,
-  AboutImage,
+  GetToKnowUsContainer,
+  GetToKnowUsContent,
+  GetToKnowUsTitle,
+  GetToKnowUsText,
+  GetToKnowUsButton,
+  GetToKnowUsImages,
+  GetToKnowUsImage,
   GetToKnowUsSection,
 } from "./GetToKnowUs.styles";
 
 const GetToKnowUs = () => {
   return (
     <GetToKnowUsSection>
-      <AboutContainer>
-        <AboutContent>
+      <GetToKnowUsContainer>
+        <GetToKnowUsContent>
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -25,16 +25,16 @@ const GetToKnowUs = () => {
               hidden: { opacity: 0, scale: 0 },
             }}
           >
-            <AboutTitle>Get to Know Us.</AboutTitle>
-            <AboutText>
+            <GetToKnowUsTitle>Get to Know Us.</GetToKnowUsTitle>
+            <GetToKnowUsText>
               Being a valued member of the Lulu Catering Group Hospitality, Lulu
               Catering Services takes pride in its affiliation. Our mission is
               to deliver top-notch catering services accompanied by exceptional
               hospitality.
-            </AboutText>
-            <AboutButton to="/about_us">About us</AboutButton>
+            </GetToKnowUsText>
+            <GetToKnowUsButton to="/GetToKnowUs_us">GetToKnowUs us</GetToKnowUsButton>
           </motion.div>
-        </AboutContent>
+        </GetToKnowUsContent>
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -45,18 +45,18 @@ const GetToKnowUs = () => {
             hidden: { opacity: 0, x: 200 },
           }}
         >
-          <AboutImages>
-            <AboutImage
+          <GetToKnowUsImages>
+            <GetToKnowUsImage
               src="/assets/getToKnowUs/get_to_know_us.png"
               alt="Food Image 1"
             />
-            <AboutImage
+            <GetToKnowUsImage
               src="/assets/getToKnowUs/get_to_know_us-2.png"
               alt="Food Image 2"
             />
-          </AboutImages>
+          </GetToKnowUsImages>
         </motion.div>
-      </AboutContainer>
+      </GetToKnowUsContainer>
     </GetToKnowUsSection>
   );
 };
