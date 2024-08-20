@@ -1,4 +1,5 @@
 # Catering Website
+
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Flulu-pi.vercel.app)](https://lulu-pi.vercel.app/)
 
 ![Catering Website](/public/assets/readme_banner.png)
@@ -16,6 +17,8 @@
 ## Introduction
 
 This is a responsive catering website built using modern web technologies. The website showcases the services offered by the catering company, along with a gallery, menu, and contact sections. The site is designed to be visually appealing and functional across all devices, including desktops, tablets, and mobile phones.
+
+**[View the live site here](https://lulu-pi.vercel.app/).**
 
 ## Features
 
@@ -42,30 +45,33 @@ To run this project locally, follow these steps:
    git clone https://github.com/kidus-t-w/catering.git
    ```
 2. **Navigate to the project directory**:
-    ```bash
-    cd catering
-    ```
+   ```bash
+   cd catering
+   ```
 3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 4. **Start the development server**:
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 5. **Open your browser and go to**:
-    http://localhost:5173
+   http://localhost:5173
 
 ## Usage
+
 - Home Page: Displays a hero section with a brief introduction and the main call to action buttons.
 - Services: Lists the services provided by the catering company with images and descriptions.
 - Gallery: Showcases images of past events and dishes.
 - Contact: Includes a contact form for users to reach out to the company.
 
 ## Contributing
+
 Contributions are welcome! Please fork this repository and submit a pull request with your changes.
 
 ## Steps to Contribute
+
 1. Fork the repository
 2. Create a new branch (git checkout -b feature-branch)
 3. Make your changes
@@ -74,4 +80,5 @@ Contributions are welcome! Please fork this repository and submit a pull request
 6. Open a pull request
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
