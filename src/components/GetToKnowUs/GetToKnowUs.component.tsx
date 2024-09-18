@@ -32,7 +32,7 @@ const GetToKnowUs = () => {
               to deliver top-notch catering services accompanied by exceptional
               hospitality.
             </GetToKnowUsText>
-            <GetToKnowUsButton to="/GetToKnowUs_us">GetToKnowUs us</GetToKnowUsButton>
+            <GetToKnowUsButton to="/GetToKnowUs_us">About Us</GetToKnowUsButton>
           </motion.div>
         </GetToKnowUsContent>
         <motion.div
@@ -41,8 +41,8 @@ const GetToKnowUs = () => {
           viewport={{ once: true }}
           transition={{ duration: 2 }}
           variants={{
-            visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: 200 },
+            visible: { opacity: 1, y: 0 },
+            hidden: { opacity: 0, y: 50 },
           }}
         >
           <GetToKnowUsImages>
