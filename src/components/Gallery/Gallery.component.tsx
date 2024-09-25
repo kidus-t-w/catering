@@ -41,7 +41,7 @@ const GallerySection = () => {
       <GalleryGrid>
         {images.map((image, index) => (
           <GalleryItem key={index}>
-            <GalleryImage src={image} alt={`Gallery image ${index + 1}`} />
+            <GalleryImage src={image} alt={`Gallery image ${index + 1}`} loading="lazy" />
           </GalleryItem>
         ))}
       </GalleryGrid>
