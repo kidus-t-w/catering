@@ -5,13 +5,13 @@ export const ServicesContainer = styled.section`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("/assets/services/services-bg.png");
+  background-image: url("https://github.com/kidus-t-w/catering/blob/main/public/assets/services/services-bg.png?raw=true");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Makes the background image fixed */
+  background-attachment: fixed; 
   position: relative;
   color: #fff;
-  overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+  overflow: hidden; 
 
   &::before {
     content: "";
@@ -20,11 +20,10 @@ export const ServicesContainer = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
-    z-index: 1; /* Ensure the overlay is above the background image */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
   }
 
-  /* Ensure the content is above the overlay */
   > * {
     position: relative;
     z-index: 2;

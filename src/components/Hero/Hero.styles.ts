@@ -6,7 +6,7 @@ export const HeroContainer = styled.section`
   align-items: center;
   justify-content: center;
   height: 92vh;
-  background-image: url("/assets/hero/Hero_image.png");
+  background-image: url("https://github.com/kidus-t-w/catering/blob/main/public/assets/hero/Hero_image.png?raw=true");
   background-size: cover;
   background-position: center;
   position: relative;

@@ -6,14 +6,14 @@ import {
 } from "./Pictures.styles";
 
 const pictures = [
-  "/assets/pictures/picture-1.png",
-  "/assets/pictures/picture-2.png",
-  "/assets/pictures/picture-3.png",
-  "/assets/pictures/picture-4.png",
-  "/assets/pictures/picture-5.png",
-  "/assets/pictures/picture-6.png",
-  "/assets/pictures/picture-7.png",
-  "/assets/pictures/picture-8.png",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-1.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-2.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-3.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-4.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-5.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-6.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-7.png?raw=true",
+  "https://github.com/kidus-t-w/catering/blob/main/public/assets/pictures/picture-8.png?raw=true",
 ];
 
 const Pictures = () => {
